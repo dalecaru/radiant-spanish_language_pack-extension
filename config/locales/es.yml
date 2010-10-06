@@ -50,7 +50,7 @@ es:
       long: "%d de %B de %Y"
       only_day: "%d"
       short: "%d de %b"
-    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Setiembre, Octubre, Noviembre, Diciembre]
+    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
     order: [ :day, :month, :year ]
   delete_layout: 'Borrar Layout'
   delete_pages: 'Borrar {{pages}}'  
