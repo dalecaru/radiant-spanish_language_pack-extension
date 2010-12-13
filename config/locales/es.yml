@@ -10,6 +10,7 @@ es:
         taken: 'este nombre ya esta en uso' # name_in_use
         too_long: 'no debe ser mas largo que {{count}} caracteres' # character_limit
         too_short: 'debe tener al menos {{count}} caracteres' # character_minimum
+        not_permitted: 'this must be one of the permitted values'
       models:
         page:
           attributes:
@@ -24,6 +25,7 @@ es:
             password:
               confirmation: 'no coincide con la confirmación' # password_confirmation
   add_child: 'Agregar Página'
+  add_field: 'Agregar Campo'
   add_part: 'Agregar Parte'
   add_tab: 'Agregar Pestaña'
   admin: 'Administrador' 
@@ -38,6 +40,25 @@ es:
   cancel: 'Cancelar'
   change: 'Cambiar'
   close: 'Cerrar'
+  config:
+    admin:
+      title: 'admin header title'
+    defaults:
+      locale: 'default language'
+      page:
+        fields: "page fields"
+        filter: "page filter"
+        parts: "page parts"
+        status: "page status"
+    dev:
+      host: "dev site domain name"
+    local:
+      timezone: "local timezone"
+    site:
+      name: "site name"
+      host: "site domain"
+    user:
+      allow_password_reset?: "allow password reset"
   content: 'Contenido'
   content_type: 'Content&#8209;Type'    
   creating_status: 'Creando {{model}}&#8230;'
@@ -60,8 +81,12 @@ es:
   design: 'Diseño'
   designer: 'Diseñador'
   draft: 'Borrador'
+  edit: 'Editar'
+  edit_configuration: 'Editar Configuración'
   edit_layout: 'Editar Layout'
   edit_page:  'Editar Página'   
+  edit_preferences: 'Editar Preferencias'
+  edit_settings: 'Editar Configuraciónes'
   edit_snippet: 'Editar Snippet'
   edit_user: 'Editar Usuario'
   email_address: 'Correo Electrónico'
@@ -79,6 +104,7 @@ es:
   login: 'Acceder'
   modify: 'Modificar' 
   more: 'Más'
+  more_info: 'Más Info'
   name: 'Nombre'
   new_homepage: 'Nueva Página de Inicio'
   new_layout: 'Nuevo Layout'    
@@ -86,9 +112,11 @@ es:
   new_password: 'Nueva Contraseña'
   new_snippet: 'Nuevo Snippet'
   new_user: 'Nuevo Usuario'  
+  no: 'No'
   no_layouts: 'No hay Layouts'
   no_pages: 'No hay Páginas'
   no_snippets: 'No hay Snippets'
+  normal_page: 'Página Normal'
   notes: 'Notas'    
   optional: 'Opcional'
   or: 'o'
@@ -118,6 +146,7 @@ es:
   remember_me: 'Recordarme'
   remember_me_in_this_browser: 'Recordarme en este navegador'
   remove: 'Eliminar'
+  remove_field: 'Eliminar Campo'
   remove_layout: 'Eliminar Layout'
   remove_page: 'Eliminar Página'
   remove_pages: 'Eliminar {{pages}}'
@@ -142,7 +171,8 @@ es:
     inherit: '<heredar>'
     none: '<ninguno>' 
     normal: '<normal>'
-  settings: 'Configuración'
+  settings: 'Configuraciónes'
+  show_all: 'Mostrar todas'
   slug: 'Slug'
   snippet: 'Snippet'   
   snippets: 'Snippets'
@@ -176,6 +206,14 @@ es:
     at: 'el'
     by: 'por'
     last_updated: 'Última Actualización'
+  type: 'Tipo'
+  units:
+    KB: "KB"
+    MB: "MB"
+    GB: "GB"
+    seconds: "segundos"
+    minutes: "minutos"
+    hours: "horas"
   user: 'Usuario'
   username: 'Nombre de usuario'
   username_or_email: 'Nombre de usuario or Correo electrónico'
@@ -188,3 +226,4 @@ es:
   welcome_controller:
     invalid_user: 'Credenciales invalidás.' 
     logged_out: 'Ha cerrado sesión.'  
+  yes: 'Si'
